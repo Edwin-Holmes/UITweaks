@@ -1,0 +1,22 @@
+;meta[language=en]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+2119999000|        ||This string is accessible only by its id 2119999000
+;
+; w3strings.exe --encode CombatResources.w3strings.csv --force-ignore-id-space-check-i-know-what-i-am-doing
+; example: key strings, useable characters: a-z0-9_       id=0616
+;
+; Main Menu
+2119999001||panel_mods|Mods
+; Mod Menu
+2119999002||panel_UI_Tweaks|UI Tweaks
+2119999003||preset_mods_UI_Tweaks|Misc UI Changes
+2119999004||preset_value_UI_Tweaks_Default|Default
+2119999005||preset_value_UI_Tweaks_Vanilla|Vanilla
+2119999006||option_Interact_Distance|Interaction Prompt Range
+2119999007||option_Loot_Should_Sparkle|Enable Sparkle Effect on Loot
+2119999008||option_Quest_Should_Sparkle|Enable Sparkle Effect on Quest Items
+2119999009||option_Disable_Item_Quantity|Hide Iventory/Stash Quantity in Loot Popup

@@ -8,6 +8,12 @@
                 <Entry varId="QuestShouldSparkle" value="false"/>
                 <Entry varId="DisableItemQuantity" value="false"/>
             </Preset>
+            <Preset id="1" displayName="UI_Tweaks_Vanilla">
+                <Entry varId="InteractDistance" value="3.5"/>
+                <Entry varId="LootShouldSparkle" value="true"/>
+                <Entry varId="QuestShouldSparkle" value="true"/>
+                <Entry varId="DisableItemQuantity" value="true"/>
+            </Preset>
         </PresetsArray>
         <VisibleVars>
             <Var id= "InteractDistance" displayName="Interact_Distance" displayType="SLIDER;0;10;100"/>
