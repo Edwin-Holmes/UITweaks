@@ -3,7 +3,7 @@
     var retVal: bool;
     retVal = wrappedMethod(action);
 
-	if( !disableSingleTap ) {
+	if( theInput.LastUsedGamepad() && !disableSingleTap && !thePlayer.GetLeftStickSprint() ) {
 		if( IsReleased( action )  ) {
 		    if( IsActionAllowed( EIAB_CallHorse ) 
 		    	&& !thePlayer.IsInInterior() && !thePlayer.IsInAir() )

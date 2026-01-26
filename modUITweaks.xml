@@ -31,7 +31,7 @@
 
             <Var id="Separator" displayName="" displayType="SUBTLE_SEPARATOR"/>
 
-            <Var id= "DisableSingleTapHorse" displayName="DisableSingle_Tap_Horse" displayType="TOGGLE"/>
+            <Var id= "DisableSingleTapHorse" displayName="Disable_Single_Tap_Horse" displayType="TOGGLE"/>
         </VisibleVars>
     </Group>
 </UserConfig>
